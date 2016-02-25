@@ -9,6 +9,42 @@ body{
    
 }
 
+#logo {
+float: left;
+font-size: 1.7em;
+color: #d5641c;
+text-transform: uppercase;
+letter-spacing: -1px;
+font-weight: bold;
+text-shadow: black 0.3em 0.3em 0.3em;
+}
+#logo:hover {
+color: #fff;
+text-decoration: none;
+}
+
+footer {
+margin-top: 45px;
+padding-top: 5px;
+border-top: 1px solid #eaeaea;
+color: #777;
+}
+footer a:hover {
+color: #222;
+}
+footer small {
+float: left;
+}
+footer ul {
+float: right;
+list-style: none;
+}
+footer ul li {
+float: left;
+margin-left: 15px;
+}
+
+
 .cards{
     text-align: right;
 }
